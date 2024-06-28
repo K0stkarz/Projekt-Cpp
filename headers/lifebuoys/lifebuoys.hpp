@@ -2,7 +2,7 @@
 class Kolo_ratunkowe { //klasa abstrakcyjna
 public:
     explicit Kolo_ratunkowe();
-    virtual int use(int); // czysto wirtualna metoda
+    virtual int use(int) = 0; // czysto wirtualna metoda
     bool available;
 };
 
